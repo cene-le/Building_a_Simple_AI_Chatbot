@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello", 
+                "Hi", 
+                "Halo", 
+                "Hai", 
+                "Magandang umaga", 
+                "Kamusta", 
+                "Magandang hapon", 
+                "Magandang gabi"
+            ],
+            "responses": [
+                "Hello! Welcome to FashionFusion. I can help you find the perfect outfit. Is there anything specific you're looking for?"
+            ]
+        },
+        {
+            "tag": "StockItems",
+            "patterns": [
+                "I want to know what stock of clothes is available right now",
+                "what are the popular types of clothing currently?",
+                "I am looking for popular clothing now, what do you recommend?",
+                "can you give me a list of best-selling products?"
+            ],
+            "responses": [
+                "We have a variety of trendy clothes available right now, including floral dresses, oversized shirts, and denim jackets. To view the catalog please visit FashionFusion.com.",
+                "In our collection, you will find a variety of interesting choices, from casual to formal. Please visit FashionFusion.com for more details.",
+                "Currently, our most popular collection is spring clothes with bright colors. You can explore these choices at FashionFusion.com",
+                "Of course! We have various popular options, including graphic t-shirts, chino pants, and accessories. You can explore these choices at FashionFusion.com",
+                "We always update our stock with the latest trends. Currently, we have a special summer collection with special discounts. Are you interested?",
+                "For a complete collection of items we sell, you can visit FashionFusion.com. There, you can choose based on category, size, and color.",
+                "We are happy to provide recommendations! For a casual look, we recommend our comfortable plain t-shirts. For formal events, maybe you are interested in our blazer collection."
+            ]
+        },
+        {
+            "tag": "PriceRange",
+            "patterns": [
+                "what is the price range of clothes sold",
+                "how much is the price range sold",
+                "is it expensive?",
+                "what is the average price for clothes here?",
+                "are there affordable clothes?"
+            ],
+            "responses": [
+                "We offer a variety of choices with a varied price range, starting from 100 thousand to 1 million rupiah, depending on the style and material.",
+                "Our prices are competitive and match the quality we offer. You can get good clothes with prices starting from 200 thousand rupiah."
+            ]
+        },
+        {
+            "tag": "OrderingMethod",
+            "patterns": [
+                "How do I order clothes?",
+                "What is the online ordering procedure?"
+            ],
+            "responses": [
+                "You can order directly through our website at FashionFusion.com. Choose the clothes you want, add them to the cart, and follow the checkout process.",
+                "Online ordering is very easy. Visit FashionFusion.com, choose a product, and make the payment."
+            ]
+        },
+        {
+            "tag": "Closing",
+            "patterns": [
+                "Thank you for the information.",
+                "I will check the website.",
+                "Okay, that all I need."
+            ],
+            "responses": [
+                "You're welcome, glad to help. Happy shopping!",
+                "Please, visit our website for more collections. If you have any other questions, we are ready to help.",
+                "Alright, if there is anything else you need, don't hesitate to contact us. Happy shopping!"
+            ]
+        }
+    ]
+}
